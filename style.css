@@ -1,0 +1,631 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.zom-ico{
+    color: #ff0000;
+}
+body{
+    
+   width: 100%;
+   
+}
+.header{
+    position: relative;
+}
+.container{
+    width: 83%;
+    margin: auto;
+   
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+   
+}
+.nav{
+    
+    font-weight: 550;
+    height: 50px;
+}
+.header-body-section{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+   
+}
+.logo-container p{
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size: 20px;
+  
+    line-height: 1.5;
+}
+.nav ul li a{
+    color: inherit;
+    text-decoration: none;
+    border-color: transparent;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+.zomato-logo{
+    width: 275px;
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    flex-direction: column;
+    
+}
+.header-body-content{
+    position: relative;
+    top: -50px;
+   
+
+}
+.header-body-discover{
+    font-size: 40px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 10px; 
+}
+.search-container{
+    width: 100%;
+    height:50px ;
+    background-color: white;
+    max-width: 800px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.location-map{
+    color:rgb(230, 139, 139);
+    font-size: 20px;
+}
+.caret-down{
+    color: #000;
+}
+.detection-location-input{
+    border: none;
+    width: 190px;
+    font-size: 15px;
+    outline: none;
+}
+.detection-location{
+    padding: 15px;
+
+    
+}
+.search-icon{
+    color:rgb(130, 130, 130);
+    font-size: 22px;
+    font-weight: normal;
+
+}
+.line{
+    padding: 5px;
+}
+.search-items input{
+    max-width: 100%;
+    width: 400px;
+    font-size: 15px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+.section{
+    margin-top: 40px;
+}
+.container1{
+    display: flex;
+    
+   
+    
+}
+.section .container1 .features{
+   border: 0.5px solid rgb(223, 217, 217) ;
+   margin-left: 200px;
+   width: 600px;
+  border-radius: 20px;
+}
+.features:hover{
+    transition: transform 0.5s;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.feature-image{
+   
+    
+    position: relative;
+    width: 600px;
+   
+    
+
+   object-position: 45% 45%;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+ 
+
+  
+
+
+
+    
+}
+.feature-image img{
+
+
+   
+
+   width: 600px; 
+height: 150px; 
+object-fit: cover;
+object-position: 45% 45%;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+
+
+
+}
+.order{
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: auto;
+    
+}
+.stay{
+    margin-top: 5px;
+    padding-top: 0;
+    font-size:18px ;
+    font-weight:initial;
+    color:black;
+    padding-left: 15px;
+}
+.container2{
+    margin-left:200px ;
+}
+section3{
+   
+    margin: 100px 0;
+    color:rgb(53, 48 ,48);
+    
+}
+.section3 h3{
+    font-weight: 300;
+    font-size: 23px;
+    margin: 0;
+   font-family:  Okra, Helvetica, sans-serif;
+}
+
+.section3 p{
+  
+    font-size: 18px;
+    font-weight: 4;
+    margin: 0;
+    padding-top: 5px;
+    
+}
+.section3 h1{
+
+    font-family: Okra, Helvetica, sans-serif;
+    
+    font-size: 2.2rem;
+    margin-left: 70px;
+    margin-top: 65px;
+    color: #222121;
+    font-weight: 2;
+}
+.localities-list1{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+    border: 0.5px solid rgb(223, 217, 217) ;
+    padding: 10px;
+    margin-left: 70px;
+    height: 75px;
+    padding-top: 8px;
+    border-radius: 10px;
+   
+
+}
+.localities-list2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+    width: 350px;
+    align-items: center;
+    border: 0.5px solid rgb(223, 217, 217) ;
+    padding: 10px;
+   
+    height: 75px;
+    padding-top: 8px;
+    border-radius: 10px;
+    
+
+}
+
+.localities{
+    display: flex;
+   
+    gap: 20px;
+   
+    flex: 1; 
+
+   
+    
+}
+.localities-card{
+    margin-right: 10px;
+    
+
+}
+.section4{
+  
+    display: flex;
+    width: 100%;
+   
+    align-items: center;
+    background-color: rgb(255, 251, 247);
+     margin-top: 120px;
+     padding-left: 350px;
+    
+  
+}
+.zomato-app-image{
+    width: 250px;
+    margin-top: 120px;
+    padding-bottom: 70px;
+    
+}
+.zomato-app-image img{
+    width: 100%;
+    height: 260px;
+}
+.zomato-app-details{
+    margin-left: 25px;
+}
+
+.zomato-app-details h1{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.zomato-app-details p{
+    margin-top: 17px;
+    font-size: 19px;
+    font-weight:initial;
+}
+.zomato-app-input{
+    display: flex;
+    height: 45px;
+    margin-top: 15px;
+}
+.zomato-input-container{
+    height: 100%;
+    width: 500px;
+}
+.zomato-app-radio{
+    margin-top: 25px;
+}
+#email{
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif;
+   
+}
+#phone{
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif;
+    
+}
+.zomato-input-container input{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif;
+    padding-left: 12px;
+    color: gray;
+    border: 0.5px solid rgb(223, 217, 217) ;
+
+}
+.zomato-input-container button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif;
+    padding-left: 12px;
+    color: white;
+    border: 0.5px solid rgb(223, 217, 217) ;
+    background-color: #e46363;
+    margin-left: 5px;
+
+}
+.download p{
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: grey;
+
+}
+.download{
+   
+    margin-top: 30px;
+}
+.zom-images{
+    display: flex;
+}
+.zom-images img{
+    width: 140px;
+    margin-right: 18px;
+}
+.section5{
+    padding-left: 300px;
+    width: 100%;
+    background: rgb(252, 252, 252);
+    overflow: auto;
+   
+}
+
+.zomato-near h1{
+    font-size: 30px;
+    font-family: Okra, Helvetica, sans-serif; 
+    font-weight: 10;
+    margin-left: 20px;
+}
+.near-card1{
+    
+    width: 950px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 0.5px solid rgb(223, 217, 217) ;
+   padding: 15px;
+   height: 60px;
+   border-radius: 5px;
+   margin: 20px;
+   
+   
+}
+
+.near-card1 h3{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(28, 28, 28);
+    font-family: Okra, Helvetica, sans-serif; 
+
+}
+.footer-section1{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    width: 70;
+}
+.footer-section1 .zomato-logo{
+    margin-top: 30px;
+    margin-left: 320px;
+    width: 130px;
+}
+.footer-section1 button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(223, 217, 217) ;
+}
+footer{
+    background: rgb(248, 248, 248);
+    margin-top: 0;
+    padding-top: 20px;
+}
+.footer-section1 button{
+    margin: 5px;
+}
+.section1-button-container{
+    padding-right: 170px;
+}
+.navigation-container .link-container1 h2{
+    font-size: 14px;
+
+     font-family: Okra, Helvetica, sans-serif; 
+     font-weight: 20;
+     margin-left: 200px;
+   margin-top: 50px;
+     color: #000;
+}
+.link-container-details1 a{
+    display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	text-transform: none;
+	color: gray;
+	gap: 5px;
+	font-weight: 400;
+	margin-bottom: 4px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif; 
+
+}
+.link-container-details1 a:hover{
+    color:#000
+}
+
+
+ .navigation-container{
+    display: flex;
+ }
+ .navigation-container .link-container2 h2{
+    font-size: 14px;
+
+     font-family: Okra, Helvetica, sans-serif; 
+     font-weight: 20;
+     margin-left: 100px;
+     margin-top: 50px;
+     color: #000;
+}
+.link-container-details2 a{
+    display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	text-transform: none;
+	color: gray;
+	gap: 5px;
+	font-weight: 400;
+	margin-bottom: 4px;
+    margin-left: 100px;
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif; 
+
+}
+.link-container-details2 a:hover{
+    color:#000
+}
+
+.navigation-container .link-container3 h2{
+    font-size: 14px;
+
+     font-family: Okra, Helvetica, sans-serif; 
+     font-weight: 20;
+     margin-left: 100px;
+     margin-top: 50px;
+     color: #000;
+}
+.link-container-details3 a{
+    display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	text-transform: none;
+	color: gray;
+	gap: 5px;
+	font-weight: 400;
+	margin-bottom: 4px;
+    margin-left: 100px;
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif; 
+
+}
+.link-container-details3 a:hover{
+    color:#000
+}
+.navigation-container .link-container4 h2{
+    font-size: 14px;
+
+     font-family: Okra, Helvetica, sans-serif; 
+     font-weight: 20;
+     margin-left: 100px;
+     margin-top: 50px;
+     color: #000;
+}
+.link-container-details4 a{
+    display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	text-transform: none;
+	color: gray;
+	gap: 5px;
+	font-weight: 400;
+	margin-bottom: 4px;
+    margin-left: 100px;
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif; 
+
+}
+.link-container-details4 a:hover{
+    color:#000
+}
+.navigation-container .link-container5 h2{
+    font-size: 10px;
+
+     font-family: Okra, Helvetica, sans-serif; 
+     font-weight: 20;
+     margin-left: 250px;
+     margin-top: 50px;
+     color: #000;
+}
+.social-media-icon-buttons{
+    margin-left: 250px;
+}
+
+.social-media-icon-buttons img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.social-media-logos .image1{
+    width: 140px;
+    margin-left: 250px;
+    margin-top: 20px;
+    
+}
+.social-media-logos .image2{
+    width: 140px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.link-container3{
+    width:200px;
+}
+.disclaimer{
+	font-size: 15px;
+    color: gray;
+    margin-top: 60px;
+	border-top: 1px solid #C0C0C0;
+	padding-top: 30px;
+    margin-left: 200px;
+    gap: 20;
+    margin-right: 200px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
